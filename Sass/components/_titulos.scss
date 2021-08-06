@@ -1,0 +1,29 @@
+@mixin over {
+  
+  text: {
+    decoration: overline;
+    decoration-color: #d67852;
+  }
+  padding: 20px 0;
+  padding-top: 50px;
+}
+.titulo__central {
+    @include letras;
+    @include over;
+    font-size: $standar*10;
+    
+  }
+  
+  .titulo__secundario {
+    @include letras;
+    @include over;
+    font-size: 20px;
+    background-color: rgba(62, 38, 119, 0.575);
+    border-radius: $standar;
+  }
+  .titulo__formulario {
+     @include letras;
+    padding: 20px;
+    font-size: 20px;
+  }
+  

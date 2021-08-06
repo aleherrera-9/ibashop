@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Sass/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Galeria</title>
+    <meta name="descripcion" content="IBASHO es una galería de bordado en buenos aires, argentina.">
+    <meta name="keywords" content="bordado,venta,productos,embroidery,galeria,bordados,anime,naruto,onepiece,jjk,jujutsu">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo__central fs-1"> Productos disponibles </h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light estilo__nav">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <strong><a class="nav-link m-2" href="index.html">Inicio</a></strong>
+                    <strong><a class="nav-link m-2" href="inspiracion.html">Inspiracion</a></strong>
+                    <strong><a class="nav-link m-2" href="preguntas.html">Preguntas</a></strong>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="navbar-nav">
+                        <a href="registro.html"><img src="https://img.icons8.com/ios/30/000000/edit-user-male.png"
+                                class="m-2 " /></a>
+                        <a href=""><img src="https://img.icons8.com/ios/30/000000/search--v1.png" class="m-2" /></a>
+                        <a href="tienda.html"><img src="https://img.icons8.com/ios/30/000000/buy.png" class="m-2" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+                <img src="Multimedia/naruto.jpg"alt="bordado naruto" class="rounded-3 imagen__galeria" alt="...">
+
+            </div>
+            <div class="carousel-item text-center">
+                <img src="Multimedia/jjk.jpg"alt="bordado jjk" class=" rounded-3 imagen__galeria" alt="...">
+
+            </div>
+            <div class="carousel-item text-center">
+                <img src="Multimedia/sanji.jpg"alt="bordado sanji" class="rounded-3 imagen__galeria">
+
+            </div>
+            <div class="carousel-item text-center">
+                <img src="Multimedia/jjk.jpg" alt="bordado jjk"class="rounded-3 imagen__galeria">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <footer class=" card-footer  ">
+
+        <div class="m-1 p-2 titulo__secundario bg-nuevo ">
+            <p>redes</p>
+            <ul class="list-inline">
+                <li class="fs-6 list-inline-item"><img
+                        src="https://img.icons8.com/ios/20/000000/instagram-new--v1.png" />Instagram</li>
+                <li class=" fs-6 list-inline-item"><img
+                        src="https://img.icons8.com/ios/20/000000/facebook--v1.png" />Facebook</li>
+                <li class="fs-6 list-inline-item"><img
+                        src="https://img.icons8.com/ios/20/000000/pinterest--v1.png" />Pinterest</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

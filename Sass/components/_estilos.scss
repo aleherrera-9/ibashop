@@ -1,0 +1,40 @@
+@mixin letras {
+      color: $color;
+      text: {
+        align:center;
+        transform: uppercase;
+      }
+}
+.estilo__nav {
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: $standar;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    a:hover{
+      background-color: #f389109d;
+    }
+  }
+  
+  .estilo__nosotros {
+    @include letras;
+  }
+  .estilo__nosotros--cambio {
+    @include letras;
+    background-color: #f389109d;
+    border-radius: $standar;
+  }
+ 
+.estilo__inspiracion{
+  border-style: double;
+  border-color: #d67852; 
+  img{
+    width: 200px;
+  }
+  iframe{
+  
+    padding: 20px;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,75 @@
+
+#registro {
+  padding: $standar;
+  text-align: center;
+  width: 550px;
+  margin-top: 100px;
+  margin: auto;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: rgba(238, 160, 160, 0.842);
+}
+#registro input{
+  width: 100%;
+  text-align: center;
+  font-size: $standar;
+  border-radius: 4px;
+  padding: 10px;
+  background: #d4a7c5;
+  margin-bottom: 16px;
+}
+  .icon li:hover {
+    background-color: #bcade6;
+    border-radius: $standar;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .row{
+    .texto
+    {
+       @for $i from 1 through 4 {
+           div:nth-child(#{$i}) {
+           padding: 20px;
+           margin: 40px;
+           background-color: rgb(236, 236, 236);
+           border-radius: $standar;
+           h1{
+            color: #d67852;
+           }  
+         }
+       }
+    }
+  }
+
+  .row {
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
+    button {
+      background-color: #5223d3;
+    }
+    input, textarea{
+      border-style: outset;
+      background-color: #e0f0f0d0;
+    }
+  }
+  .estilo__inspiracion{
+    border-style: double;
+    border-color: #d67852; 
+      img{
+        width: 200px;
+      }
+      iframe{
+      padding: 20px;
+      text-align: center;
+     } 
+  }
+  .imagen__central{
+    width: 750px;
+  }
+  .imagen__galeria{
+    width: 600px;
+  }
+ 

@@ -1,0 +1,31 @@
+@media (max-width: 900px) {
+    #registro{
+      width: auto;
+      input{
+        width: auto;
+      }
+    }
+    .titulo__central {
+      font-weight: 200px;
+      font-size: 100px;
+    }
+    .titulo__secundario {
+      border-radius: $standar;
+    }
+    .imagen__central{
+      width: 450px;
+    }
+    .imagen__galeria{
+      width: 350px;
+    }
+    .icon li {
+      background-color: #e0f0f0;
+      border-style: outset;
+      img {
+        width: 90px;
+      }
+    }
+    .estilo__inspiracion img{
+      width: 100px;
+    }
+  }
