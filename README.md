@@ -1,2 +1,1 @@
-# ibasho.github.io
-# ibasho.github.io
+# ibasho
