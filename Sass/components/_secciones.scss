@@ -7,69 +7,91 @@
   margin: auto;
   border-radius: 4px;
   font-size: 18px;
-  background-color: rgba(238, 160, 160, 0.842);
+  button{
+    border-style: none;
+    background-color: rgb(161, 174, 218);
+    :hover{
+      background-color: #30254e49;
+    }
+  }
+  textarea{
+    background-color: #bcade649;
+    text-align: center;
+    border-style: none;
+  }
 }
 #registro input{
+  background-color: #bcade649;
+  border-style: none;
   width: 100%;
-  text-align: center;
   font-size: $standar;
-  border-radius: 4px;
   padding: 10px;
-  background: #d4a7c5;
   margin-bottom: 16px;
 }
-  .icon li:hover {
-    background-color: #bcade6;
-    border-radius: $standar;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .row{
-    .texto
-    {
-       @for $i from 1 through 4 {
-           div:nth-child(#{$i}) {
-           padding: 20px;
-           margin: 40px;
-           background-color: rgb(236, 236, 236);
-           border-radius: $standar;
-           h1{
-            color: #d67852;
-           }  
-         }
-       }
-    }
-  }
-
-  .row {
-    a {
-      text-decoration: none;
-      color: white;
-      text-transform: uppercase;
-    }
-    button {
-      background-color: #5223d3;
-    }
-    input, textarea{
-      border-style: outset;
-      background-color: #e0f0f0d0;
-    }
-  }
-  .estilo__inspiracion{
-    border-style: double;
-    border-color: #d67852; 
-      img{
-        width: 200px;
+  
+ #seccion__info{
+   margin: $standar;
+   padding: $standar;
+      background-color: #ffffff;
+    img{
+      width: 350px;
       }
-      iframe{
-      padding: 20px;
+   }
+   #seccion__mult{
+    margin: $standar;
+    padding: $standar;
+    background-color: #ffffff88;
+   }
+  .seccion__inspiration{
+    padding: $standar;
+    margin: $standar*3;
+    background-color: rgba(255, 255, 255, 0.479);
+    img{
+       height: 800px;
+       padding: $standar;
+       text-align: center;
+     }
+     p{
+      padding: $standar;
+      margin: $standar*4;
       text-align: center;
-     } 
+     }
+     h3{
+       font-size: 20px;
+       padding: $standar;
+       text-transform: uppercase;
+     }
   }
-  .imagen__central{
-    width: 750px;
+  #seccion__gallery{
+    margin: $standar*2;
+    padding: $standar;
+    text-align: center;
+    img{
+      margin: $standar;
+    }
+    a{
+        img:hover{
+          transform:scale(1.2);
+        }
+      }
+    }
+  #seccion__ibashop{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    img{
+      border-radius: $standar;
+    }
+    ul{
+      text-align: left;
+      li{
+        text-transform: capitalize;
+      }
+    }
+    a{
+      color: white;
+    }
+    nav{
+      background-color: rgba(170, 137, 111, 0.527);
+    }
   }
-  .imagen__galeria{
-    width: 600px;
-  }
- 

@@ -1,29 +1,29 @@
 @mixin over {
-  
-  text: {
-    decoration: overline;
-    decoration-color: #d67852;
-  }
   padding: 20px 0;
-  padding-top: 50px;
+  padding-top: 20px;
 }
-.titulo__central {
-    @include letras;
-    @include over;
-    font-size: $standar*10;
-    
+  .titulo__footer{
+    ul{
+      text-transform: uppercase;
+    }
   }
-  
   .titulo__secundario {
     @include letras;
-    @include over;
-    font-size: 20px;
-    background-color: rgba(62, 38, 119, 0.575);
-    border-radius: $standar;
+    font-size: 25px;
+    border-color: #000000;
+    color: rgb(156, 69, 69);
+    padding: $standar;
+    margin: $standar;
   }
-  .titulo__formulario {
+  .titulo__banner {
+   @include letras;
+   padding: 20px;
+   font-size: 30px;
+ }
+  .titulo__formulario{
      @include letras;
     padding: 20px;
-    font-size: 20px;
+    font-size: $standar;
+    color:#9f92af;
   }
   
